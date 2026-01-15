@@ -1,4 +1,4 @@
-// ex03.js
+// ex03.js 
 
 function max2(a, b) {
     if (a > b) {

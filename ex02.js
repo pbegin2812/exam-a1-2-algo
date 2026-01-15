@@ -1,4 +1,4 @@
-//ex02.js
+//ex02.js 
 
 function dansPlage(nombre, min, max) {
     if (nombre >= min && nombre <= max) {
