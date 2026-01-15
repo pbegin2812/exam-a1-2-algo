@@ -1,7 +1,11 @@
 //ex02.js
 
 function dansPlage(nombre, min, max) {
-    return nombre >= min && nombre <= max;
+    if (nombre >= min && nombre <= max) {
+        return true;
+    } else {
+        return false; 
+    }
 }
 
 console.log(dansPlage(5, 1, 10));  // true

@@ -1,7 +1,11 @@
 // ex01.js
 
 function doublerSi(nombre, estDouble) {
-    return estDouble ? nombre * 2 : nombre;
+    if (estDouble) {
+        return nombre * 2;
+    } else {
+        return nombre;
+    }
 }
 
 console.log(doublerSi(1, true));  // Résultat attendu: 2
